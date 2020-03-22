@@ -1,8 +1,9 @@
+# All about Contaoners
 ## Personal porpose
-This pr9ject is the result with my own scrpts base on intro to containers by 
+This project is the result of my own scripts base on the complete intro to containers by Brian Holt
 
 ## Good to use
-for using a ubuntu as os run the following command
+for using an ubuntu as os to be able to run the commands
 docker run -it --name docker-host --rm --privileged ubuntu:bionic
  
 ## Understanding the project structyre
@@ -13,4 +14,8 @@ chroot/
   Dockerfile => for its own container and scripts
     Notes.md => co tain all repevant for this unit
     init.sh => will start a docker container with ubuntu:bionic to practice manually
-    
+    steps.sh => script withh steps to complete all leqrned
+namespaces/
+  
+
+Course followe up notes https://btholt.github.io/complete-intro-to-containers/
