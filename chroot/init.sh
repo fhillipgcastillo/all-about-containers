@@ -1,0 +1,1 @@
+docker run -it --name docker-host-chroot --rm --privileged ubuntu:bionic
