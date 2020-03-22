@@ -6,7 +6,7 @@ This project is the result of my own scripts base on the complete intro to conta
 for using an ubuntu as os to be able to run the commands
 docker run -it --name docker-host --rm --privileged ubuntu:bionic
  
-## Understanding the project structyre
+## Understanding the project structure
 note: follow the syeps of each directory
 
 Dockerfile => os for remote socker
