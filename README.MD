@@ -11,10 +11,10 @@ note: follow the syeps of each directory
 
 * Dockerfile => os for remote docker
 * chroot/
-  * * Dockerfile => for its own container and scripts
-  * * Notes.md => co tain all repevant for this unit
-  * * init.sh => will start a docker container with ubuntu:bionic to practice manually
-  * * steps.sh => script withh steps to complete all leqrned
+  * Dockerfile => for its own container and scripts
+  * Notes.md => co tain all relevant for this unit
+  * init.sh => will start a docker container with ubuntu:bionic to practice manually
+  * steps.sh => script withh steps to complete all leqrned
 * namespaces/
   
 

@@ -1,0 +1,1 @@
+docker run -it -d --name docker-host --rm --privileged ubuntu:bionic

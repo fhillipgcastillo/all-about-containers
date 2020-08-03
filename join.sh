@@ -1,0 +1,1 @@
+docker container exec -it  docker-host bash
