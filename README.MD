@@ -19,3 +19,10 @@ note: follow the syeps of each directory
   
 
 Course followe up notes https://btholt.github.io/complete-intro-to-containers/
+
+
+## A hacker lab 
+https://github.com/johackim/docker-hacklab
+
+### run it with
+docker run --name hacklab --net=host --privileged -it ston3o/docker-hacklab zsh

@@ -1,7 +1,7 @@
 ## Dockerfile
-Is a ubuntu bionix version container, containing debootstrap to unshare the chrooted directories
+Is a ubuntu bionix version container, containing debootstrap, to unshare the chrooted directories
 
-##debootstrap
+## debootstrap
 debootstrap is a tool to create debian core based directories
 
 debootstrap --variant=minbase bionic /fhillip-root
