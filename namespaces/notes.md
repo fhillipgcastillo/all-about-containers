@@ -6,12 +6,24 @@ debootstrap is a tool to create debian core based directories
 
 debootstrap --variant=minbase bionic /fhillip-root
 
-Usage: debootstrap [OPTION]... <suite> <target> [<mirror> [<script>]]
+## Usage: 
+```
+debootstrap [OPTION] ... <suite> <target> [<mirror> [<script>]]
+```
 Bootstrap a Debian base system into a target directory.
 
 # to start
 ## build image
+```
 docker build -t fhillip/containers-namespace .
+```
 
 ## run it
-docker run -it --name namespace fhillip/containers-namespace
+```
+docker run -it --name namespace --privileged fhillip/containers-namespace
+```
+
+## Run last command
+```
+sh steps.sh ./sec-root
+```
